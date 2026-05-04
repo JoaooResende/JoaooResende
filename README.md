@@ -3,8 +3,8 @@
 🎓 Estudante de **Análise e Desenvolvimento de Sistemas** – FIAP (Unidade Paulista)
 📅 Previsão de conclusão: 2026
 
-💻 Tenho interesse em desenvolvimento de software e projetos com automação utilizando Arduino.
-🚀 Buscando oportunidade de estágio na área de tecnologia para evoluir minhas habilidades na prática.
+🚀 Atualmente, busco uma oportunidade de estágio na área de tecnologia para desenvolver minhas habilidades,
+💻  adquirir experiência prática e crescer profissionalmente.
 
 ---
 
