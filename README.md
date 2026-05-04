@@ -2,64 +2,80 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>João Victor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>João Victor | Portfólio</title>
+
   <style>
-    body {
+    * {
       margin: 0;
+      padding: 0;
+      box-sizing: border-box;
       font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #0f172a, #1e293b);
-      color: white;
+    }
+
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+    }
+
+    header {
       text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #1e293b, #0f172a);
     }
 
-    .container {
-      padding: 40px 20px;
-    }
-
-    h1 {
+    header h1 {
       font-size: 2.5rem;
-      animation: fadeIn 2s ease-in-out;
+    }
+
+    header p {
+      margin-top: 10px;
+      opacity: 0.8;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
     }
 
     h2 {
+      margin-bottom: 20px;
       color: #38bdf8;
-      margin-top: 40px;
-    }
-
-    p {
-      max-width: 600px;
-      margin: 10px auto;
-      opacity: 0.9;
-    }
-
-    .card {
-      background: rgba(255,255,255,0.05);
-      padding: 20px;
-      margin: 15px auto;
-      border-radius: 15px;
-      width: 300px;
-      transition: 0.3s;
-    }
-
-    .card:hover {
-      transform: scale(1.05);
-      background: rgba(255,255,255,0.1);
     }
 
     .skills span {
       display: inline-block;
-      background: #38bdf8;
-      color: black;
-      padding: 8px 12px;
+      background: #1e293b;
+      padding: 10px 15px;
       margin: 5px;
-      border-radius: 10px;
-      font-weight: bold;
+      border-radius: 8px;
+      border: 1px solid #38bdf8;
       transition: 0.3s;
     }
 
     .skills span:hover {
-      background: #0ea5e9;
-      transform: translateY(-3px);
+      background: #38bdf8;
+      color: #0f172a;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      opacity: 0.6;
     }
 
     a {
@@ -70,58 +86,65 @@
     a:hover {
       text-decoration: underline;
     }
-
-    @keyframes fadeIn {
-      from {opacity: 0; transform: translateY(-20px);}
-      to {opacity: 1; transform: translateY(0);}
-    }
   </style>
 </head>
 
 <body>
-  <div class="container">
 
-    <h1>👋 Olá, eu sou João Victor</h1>
+  <header>
+    <h1>👋 João Victor</h1>
+    <p>Estudante de ADS – FIAP | Desenvolvedor em evolução 🚀</p>
+    <p>Previsão de conclusão: 2026</p>
+  </header>
 
-    <p>🎓 Estudante de Análise e Desenvolvimento de Sistemas – FIAP</p>
-    <p>📅 Previsão de conclusão: 2026</p>
-    <p>💻 Apaixonado por tecnologia, desenvolvimento e projetos com Arduino</p>
-    <p>🚀 Em busca de estágio na área de tecnologia</p>
+  <section>
+    <h2>💻 Sobre mim</h2>
+    <p>
+      Tenho interesse em desenvolvimento de software e projetos com Arduino.
+      Atualmente busco uma oportunidade de estágio para evoluir minhas habilidades na prática.
+    </p>
+  </section>
 
+  <section>
     <h2>🚀 Tecnologias</h2>
     <div class="skills">
       <span>C++</span>
       <span>HTML</span>
       <span>CSS</span>
       <span>Arduino</span>
-      <span>Lógica</span>
+      <span>Lógica de Programação</span>
     </div>
+  </section>
 
+  <section>
     <h2>📌 Projetos</h2>
 
     <div class="card">
-      <h3>💻 Sistema de Cadastro</h3>
-      <p>Aplicação em C++ para cadastro de usuários no terminal.</p>
+      <h3>Sistema de Cadastro em C++</h3>
+      <p>Aplicação para cadastro de usuários no terminal.</p>
     </div>
 
     <div class="card">
-      <h3>🌐 Site Responsivo</h3>
-      <p>Projeto web com HTML e CSS com layout moderno.</p>
+      <h3>Site Responsivo</h3>
+      <p>Projeto web utilizando HTML e CSS com layout responsivo.</p>
     </div>
 
     <div class="card">
-      <h3>🔌 Arduino</h3>
-      <p>Automação com sensores de temperatura, presença e luz.</p>
+      <h3>Projeto com Arduino</h3>
+      <p>Automação com sensores de temperatura, presença e luminosidade.</p>
     </div>
 
+  </section>
+
+  <section>
     <h2>📫 Contato</h2>
     <p>Email: <a href="mailto:seuemail@email.com">seuemail@email.com</a></p>
-    <p>Telefone: (11) 97551-3884 </p>
+    <p>Telefone: (11) 99999-9999</p>
+  </section>
 
-    <p style="margin-top:40px; opacity:0.7;">
-      ⭐ Sempre evoluindo na área de tecnologia
-    </p>
+  <footer>
+    <p>⭐ João Victor - Sempre evoluindo na tecnologia</p>
+  </footer>
 
-  </div>
 </body>
 </html>
